@@ -1,0 +1,154 @@
+.contact {
+  min-height: 100vh;
+  background-color: #3A57B4;
+  color: #fff;
+}
+
+.contact-content {
+  padding-top: 90px;
+  color: #fff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  color: #fff;
+}
+
+.contact-hero {
+  background-color: #3A57B4;
+  color: #fff;
+  text-align: center;
+  padding: 4rem 2rem;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 2.5rem;
+}
+
+.contact-hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.contact-section {
+  padding: 4rem 0;
+  background-color: #3A57B4;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 2.5rem;
+  color: #fff;
+}
+
+.contact-grid {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 4rem;
+  color: #fff;
+}
+
+.contact-info h2,
+.contact-form h2 {
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+.contact-info > p {
+  color: #fff;
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+}
+
+.info-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 2rem;
+  color: #fff;
+}
+
+.info-item {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.info-icon {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.info-content h3 {
+  color: #fff;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.info-content p {
+  color: #fff;
+  line-height: 1.6;
+}
+
+.contact-form {
+  background: transparent;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+  color: #fff;
+}
+
+.form-group label {
+  display: block;
+  color: #fff;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 0.75rem;
+  border: 1px solid #fff;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: border-color 0.3s ease;
+  background: #3A57B4;
+  color: #fff !important;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #fff;
+}
+
+.submit-button {
+  background-color: #3A57B4;
+  color: #fff !important;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+  box-shadow: none;
+}
+
+.submit-button:hover {
+  background-color: #2C4280;
+  color: #fff !important;
+} 

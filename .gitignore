@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+
+# Runtime files
+*.log
+.env
+.vscode
+.DS_Store
+
+Thumbs.db

@@ -1,0 +1,279 @@
+.home {
+  min-height: 100vh;
+  padding-top: 90px;
+  background-color: #16241D;
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.home-content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.5rem;
+}
+
+.home-desktop-text16.HeadingH1 {
+  color: #182823;
+  font-size: 3.2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+  background: #fff;
+  border-radius: 32px;
+  box-shadow: 0 4px 24px rgba(16,28,24,0.07);
+  padding: 3.5rem 2.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5rem;
+  justify-content: space-between;
+}
+
+.hero-content {
+  flex: 1;
+  max-width: 480px;
+  text-align: left;
+  margin-left: 2.5rem;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1.2rem;
+  color: #182823;
+  font-weight: 800;
+  letter-spacing: -1px;
+}
+
+.hero-content p {
+  font-size: 1.35rem;
+  color: #444;
+  margin-bottom: 2.2rem;
+  font-weight: 400;
+}
+
+.hero-actions {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: flex-start;
+}
+
+.button {
+  padding: 0.95rem 2.5rem;
+  border-radius: 24px;
+  font-weight: 700;
+  font-size: 1.15rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  background: #1A2E26;
+  color: #fff;
+  border: none;
+  box-shadow: 0 2px 8px rgba(16,28,24,0.04);
+}
+
+.button:hover {
+  background: #2e4d3a;
+  color: #fff;
+}
+
+.homepage-footnote {
+  font-size: 0.7rem;
+  color: #b8e4d6;
+  font-style: italic;
+  margin-top: 12px;
+  max-width: 420px;
+}
+
+.hero-image {
+  flex: 1;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  min-width: 0;
+  margin-right: 2.5rem;
+}
+
+.hero-image img, .hero-image .placeholder-image {
+  max-width: 600px;
+  width: 100%;
+  border-radius: 24px;
+  box-shadow: 0 2px 12px rgba(16,28,24,0.08);
+}
+
+.placeholder-image {
+  width: 100%;
+  height: 320px;
+  background-color: #F5F7F6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  font-size: 1.25rem;
+  border-radius: 24px;
+}
+
+/* Memorial Section */
+.memorial {
+  margin-bottom: 4rem;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 2px 12px rgba(16,28,24,0.07);
+  padding: 2.5rem 2rem;
+}
+
+.memorial h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #182823;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.memorial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.memorial-card {
+  max-width: 320px;
+  text-align: center;
+  background: #F5F7F6;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(16,28,24,0.04);
+  padding: 1.5rem 1rem;
+}
+
+.memorial-card .placeholder-image {
+  height: 200px;
+  margin-bottom: 1rem;
+}
+
+.memorial-card h3 {
+  color: #182823;
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.memorial-card p {
+  color: #666;
+}
+
+/* Mission Section */
+.mission {
+  margin-bottom: 4rem;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 2px 12px rgba(16,28,24,0.07);
+  padding: 2.5rem 2rem;
+}
+
+.mission-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.mission-header .tagline {
+  color: #4a90e2;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.mission-header h2 {
+  color: #182823;
+  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+}
+
+.mission-header p {
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.mission-content {
+  display: flex;
+  justify-content: center;
+}
+
+.mission-card {
+  max-width: 600px;
+  text-align: center;
+}
+
+.mission-card .placeholder-image {
+  height: 300px;
+  margin-bottom: 1.5rem;
+}
+
+.mission-card h3 {
+  color: #182823;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.mission-card p {
+  color: #666;
+}
+
+.section-card {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 2px 12px rgba(16,28,24,0.07);
+  padding: 2.5rem 2rem;
+  margin-bottom: 2.5rem;
+  text-align: left;
+}
+
+.section-card h2 {
+  color: #182823;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 1.2rem;
+}
+
+.section-card p {
+  color: #444;
+  font-size: 1.1rem;
+  margin-bottom: 1.2rem;
+}
+
+@media (max-width: 900px) {
+  .home-content {
+    padding: 2rem 0.5rem 1rem 0.5rem;
+    gap: 2.5rem;
+  }
+  .hero {
+    flex-direction: column;
+    padding: 2.5rem 1rem 2rem 1rem;
+    gap: 2rem;
+  }
+  .hero-content {
+    text-align: center;
+    max-width: 100%;
+    margin-left: 0;
+  }
+  .hero-image {
+    margin-right: 0;
+    justify-content: center;
+  }
+  .hero-image img, .hero-image .placeholder-image {
+    max-width: 100%;
+  }
+  .hero-actions {
+    justify-content: center;
+  }
+  .memorial-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+} 
